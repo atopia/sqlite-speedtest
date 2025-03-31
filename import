@@ -6,5 +6,5 @@ URL(speedtest) := https://www.sqlite.org/src/raw/test/speedtest1.c?name=132cd5ba
 SHA(speedtest) := ecc873c693f9b150bf58b6212d18ddcc851dfd8c82eb75fbfae6243c14457d0b
 NAME(speedtest) := src/speedtest1.c
 
-PATCHES := $(addprefix patches/, build.patch speedtest1.c.patch)
+PATCHES := $(addprefix patches/, build.patch)
 PATCH_OPT := -p1 -d src
